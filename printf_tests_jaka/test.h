@@ -1,7 +1,7 @@
 #ifndef TEST_H
 # define TEST_H
 
-#include "ft_printf.h"
+#include "../ft_printf.h"
 
 #define BLKB  "\e[40m"
 #define HYEL  "\e[0;93m"

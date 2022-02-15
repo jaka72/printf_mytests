@@ -29,11 +29,11 @@ void check_chars(void)
 	ret_mine = ft_printf("Mine: [%*c]\n", -12,c);
 	printf("Orig: %d, Mine: %d\n\n", ret_orig, ret_mine);
 
-	/*
-	print_line();  //3
+	
+	printf(HYEL"\n____[ %%c = %c ]_______________________________________________________\n\n", c);
 	printf(BLU"           %%%%      %%5.c           %%-5c          %%*c         %%-*c             %%c\n"RESET);
-	   printf("Orig: \"Once %% upon [%5.c] a time [%-5c] there [%*c] was [%-*c] a little [%c] girl.\"\n", c, c, 5, c, 5, c, c);
-	my_printf("Mine: \"Once %% upon [%5.c] a time [%-5c] there [%*c] was [%-*c] a little [%c] girl.\"\n", c, c, 5, c, 5, c, c);
+	ret_orig =    printf("Orig: \"Once %% upon [%5.c] a time [%-5c] there [%*c] was [%-*c] a little [%c] girl.\"\n", c, c, 5, c, 5, c, c);
+	ret_mine = ft_printf("Mine: \"Once %% upon [%5.c] a time [%-5c] there [%*c] was [%-*c] a little [%c] girl.\"\n", c, c, 5, c, 5, c, c);
 	printf(RESET);
-	*/
+	
 }
